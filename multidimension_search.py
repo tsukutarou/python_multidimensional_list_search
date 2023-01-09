@@ -10,11 +10,12 @@ from helper import nest_depth, isirregular
      input_list: 要素が存在しているか調べたいリスト(またはタプル, ndarray)
      query: 調べたい要素 (リストやタプルの形で複数渡すことも可能)
      contains_all: queryの全ての要素をもつ要素のインデックスが欲しい場合はTrue.
-     デフォルトではFalse (query内のどれか一つでも該当するものを検索)
+                   デフォルトではFalse (query内のどれか一つでも該当するものを検索)
 
 返り値:
-     (不規則次元を持たない場合) 該当する要素番号を持った多次元リスト. ネストの深さが元のリスト準拠.
-     (不規則次元を持つ場合) Noneを返却. 標準出力にエラーメッセージ出力.
+     不規則次元を持たない場合: 該当する要素番号を持った多次元リスト. 
+                             ネストの深さは元のリストから1次元小さくなる.
+     不規則次元を持つ場合: Noneを返却. 標準出力にエラーメッセージ出力.
 """
 def multidimension_search(
                              input_list:Union[tuple,list,np.ndarray],
