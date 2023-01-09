@@ -28,8 +28,13 @@ def multidimension_search(
      
      if isinstance(query, (int, str)):
          query = [query]
-     
-     if nest_depth(input_list) > 2:
+
+     if nest_depth(input_list) == 1:
+         if contains_all:
+             return all(map(lambda x:x in input_list, query))
+         else:
+             return [i for i,l in enumerate(input_list) if any(map(lambda x:x == l, query))]
+     elif nest_depth(input_list) > 2:
          return [multidimension_search(sublist,query,contains_all) for sublist in input_list]
 
      if contains_all:
