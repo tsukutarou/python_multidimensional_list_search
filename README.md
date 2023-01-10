@@ -65,8 +65,6 @@ You can read more detail informations about this repo on at [<b>my blog</b>](htt
 
 実装に関する詳しい説明など、[<b>私のブログ</b>](https://www.tsukutarou.net/entry/python_multidimensional_list_search)で紹介しています。
 
-<iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.tsukutarou.net%2Fentry%2Fpython_multidimensional_list_search" title="【Python】2次元・3次元・多次元リスト(list)内に任意の要素があるか検索 - つくたろうのブログ" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" loading="lazy"></iframe>
-
 ***
 
 ## Author
