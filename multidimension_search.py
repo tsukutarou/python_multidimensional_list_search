@@ -76,7 +76,7 @@ def main():
      # "aaa","bbb","ccc"について、含まれているインデックスを検索
      string_query = ["aaa","bbb","ccc"]
 
-     # "aaa","bbb","ccc"のどちらか一方でも入っているか調べる例
+     # "aaa","bbb","ccc"のいずれか一つでも入っているか調べる例
      print(multidimension_search(string_list1, string_query, contains_all=False))  # [0, 1, 2]
      print(multidimension_search(string_list2, string_query, contains_all=False))  # [0, 1, 2]
      print(multidimension_search(string_list3, string_query, contains_all=False))  # [[], [0]]

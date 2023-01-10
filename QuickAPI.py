@@ -53,7 +53,7 @@ def main():
      # [1,2]の全てが入っているか調べる例
      print(two_dim_search(list1, query, contains_all=True))  # [0]
 
-     # "aaa","bbb","ccc"のどちらか一方でも入っているか調べる例
+     # "aaa","bbb","ccc"のいずれか一つでも入っているか調べる例
      print(two_dim_search(string_list1, string_query, contains_all=False))  # [0, 1, 2]
 
      # "aaa","bbb","ccc"の全てが入っているか調べる例
